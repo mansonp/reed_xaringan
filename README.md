@@ -1,6 +1,6 @@
-# scpo_xaringan
+# reed_xaringan
 
-Minimalist `R` xaringan theme for html presentations using ScPo style/colors.
+Minimalist `R` xaringan theme for html presentations using Reed style/colors.
 
 Reed style guide a [https://www.reed.edu/public-affairs/assets/downloads/reed-graphic-standards.pdf](https://www.reed.edu/public-affairs/assets/downloads/reed-graphic-standards.pdf).
 
@@ -12,7 +12,7 @@ Here is the title slide:
 
 ## Full Example Presentation
 
-Example presentation at [https://scpoecon.github.io/scpo_xaringan/]( https://scpoecon.github.io/scpo_xaringan/). 
+Example presentation at [https://mansonp.github.io/reed_xaringan/]( https://mansonp.github.io/reed_xaringan/). 
 
 ## Usage
 
@@ -28,7 +28,7 @@ date: "SciencesPo Paris </br> `r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: [default, "scpo.css", "scpo-fonts.css"]
+    css: [default, "reed.css", "reed-fonts.css"]
     nature:
       beforeInit: ["../js/ru_xaringan.js"]
       highlightStyle: github
