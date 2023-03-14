@@ -263,7 +263,7 @@ will make text .grey[grey]
 
 --
 
-We can do this with white, .grey[grey], .black[black], .RUred[red] and .blue[blue]. 
+We can do this with white, .grey[grey], .black[black], .Reedred[red] and .blue[blue]. 
 
 --
 
@@ -376,7 +376,7 @@ remark.macros.scale = function (percentage) {
 - ...we can use the markdown call to resize images...
 
 ```md
-![:scale 25%](./img/logo/ScPo-econ.png)
+![:scale 20%](./img/logo/reed-college-lockup-red.png)
 ```
 
 - These calls can also be put inside html divs so as to control where they appear. 
@@ -389,7 +389,7 @@ remark.macros.scale = function (percentage) {
 
 ---
 
-# ScPo stuff
+# Reed stuff
 
 ### General
 
@@ -401,7 +401,7 @@ remark.macros.scale = function (percentage) {
 
 ### Sections
 
-- We can create section dividers with ScPo red and grey by using the `class` call:
+- We can create section dividers with Reed red and grey by using the `class` call:
 
 ```md
 class: title-slide-section-red
@@ -415,8 +415,9 @@ class: title-slide-section-grey
 
 ---
 class: title-slide-section-red
+<div class="my-footer"><img src="./img/logo/reed-college-griffin-white.svg" style="height: 60px;"/></div> 
 
-# ScPo red section divider
+# Reed red section divider
 
 ### This is the H3 font color
 
@@ -428,10 +429,13 @@ class: title-slide-section-red
 
 - and also .grey[grey]
 
+- note logo matches this color, so you can use the white PNG if you want!
+
 ---
 class: title-slide-section-grey
+<div class="my-footer"><img src="./img/logo/reed-college-griffin-white.svg" style="height: 60px;"/></div> 
 
-# ScPo grey section divider
+# Reed grey section divider
 
 ### This is the H3 font color
 
@@ -444,6 +448,7 @@ class: title-slide-section-grey
 - and also .black[black]
 
 ---
+<div class="my-footer"><img src="./img/logo/reed-college-griffin-red.svg" style="height: 60px;"/></div> 
 
 # Tables
 
@@ -494,7 +499,7 @@ Here is an example:
 |                                                                                                            |                                   |
 | :--------------------------------------------------------------------------------------------------------- | :-------------------------------- |
 | <a href="mailto:pablo@reed.edu">.Reedred[<i class="fa fa-paper-plane fa-fw"></i>]               | pablo@reed.edu       |
-| <a href="https://scpoecon.github.io/scpo_xaringan">.Reedred[<i class="fa fa-link fa-fw"></i>] | slides |
+| <a href="https://mansonp.github.io/reed_xaringan/">.Reedred[<i class="fa fa-link fa-fw"></i>] | slides |
 | <a href="http://twitter.com/paulonabike">.Reedred[<i class="fa fa-twitter fa-fw"></i>]                          | @PaulOnABike                         |
 | <a href="http://github.com/mansonp">.Reedred[<i class="fa fa-github fa-fw"></i>]                          | @mansonp                      |
 
