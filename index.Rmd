@@ -1,12 +1,12 @@
 ---
 title: "`R` Xaringan Package Slide Deck"
-subtitle: "ScPo template"
-author: "Florian Oswald"
-date: "SciencesPo Paris </br> `r Sys.Date()`"
+subtitle: "Reed template"
+author: "Paul Manson"
+date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: [default, "scpo.css", "scpo-fonts.css"]
+    css: [default, "reed.css", "scpo-fonts.css"]
     nature:
       beforeInit: ["js/ru_xaringan.js"]
       highlightStyle: github
@@ -55,8 +55,8 @@ layout: true
 [jvcasillas](https://github.com/jvcasillas/ru_xaringan) template for Rutgers University.
 
 - I changed some small things in the CSS.
-    1. Used SciencesPo Logos
-    1. Added a ScPo logo in the footer of standard slides.
+    1. Used Reed Logos
+    1. Added a Reed logo in the footer of standard slides.
     
 - The template is now here: https://github.com/ScPoEcon/scpo_xaringan. Visit to check out instructions.
 
