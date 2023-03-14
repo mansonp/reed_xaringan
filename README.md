@@ -8,7 +8,7 @@ Reed style guide a [https://www.reed.edu/public-affairs/assets/downloads/reed-gr
 
 Here is the title slide:
 
-![images/coverslide.png](images/coverslide.png)
+![img/ex/titleslide.png](img/ex/titleslide.png)
 
 ## Full Example Presentation
 
