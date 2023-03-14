@@ -45,7 +45,7 @@ Second Image test. Taken from google.
 
 layout: true
   
-<div class="my-footer"><img src="./img/logo/ScPo-shield.png" style="height: 60px;"/></div> 
+<div class="my-footer"><img src="./img/logo/reed-college-griffin-red.svg" style="height: 60px;"/></div> 
 
 ---
 
@@ -200,20 +200,13 @@ layout: true
 <div class="my-footer"></div> 
 
 ---
-background-image: url(`r xaringan:::karl`)
-background-position: 50% 50%
-class: center, bottom, inverse
-
-# You only live once!
-
----
 
 layout: true
   
-<div class="my-footer"><img src="./img/logo/ScPo-shield.png" style="height: 60px;"/></div> 
+<div class="my-footer"><img src="./img/logo/reed-college-griffin-red.svg" style="height: 60px;"/></div> 
 
 ---
-background-image: url("./img/logo/ScPo-econ.png")
+background-image: url("./img/logo/reed-college-lockup-red.png")
 background-position: 90% 50%
 background-size: 300pt
 
@@ -280,7 +273,7 @@ To really make text stand out we can just use \*\*text\*\* like **this**.
 
 layout: true
   
-<div class="my-footer"><img src="./img/logo/ScPo-shield.png" style="height: 60px;"/></div> 
+<div class="my-footer"><img src="./img/logo/reed-college-griffin-red.svg" style="height: 60px;"/></div> 
 
 
 ---
@@ -359,8 +352,7 @@ It is valid R code so you can run it.
 
 ---
 class: middle, bottom
-background-image: url(./img/logo/ScPo-shield.png)
-background-size: contain
+
 
 ### <grey>You can</grey>  
 ### <grey>fill the</grey>  
@@ -390,7 +382,7 @@ remark.macros.scale = function (percentage) {
 - These calls can also be put inside html divs so as to control where they appear. 
 
 <div align="center">
-![:scale 20%](./img/logo/ScPo-econ.png)
+![:scale 20%](./img/logo/reed-college-lockup-red.png)
 </div>
 
 - All we need to do is include `beforeInit: "macros.js"` under nature in our YAML front matter
@@ -487,7 +479,7 @@ background-position: 90% 8%
 
 ---
 class: title-slide-final, middle
-background-image: url(./img/logo/ScPo-Econ.png)
+background-image: url(./img/logo/reed-college-lockup-red.png)
 background-size: 250px
 background-position: 9% 19%
 
@@ -501,8 +493,8 @@ Here is an example:
 
 |                                                                                                            |                                   |
 | :--------------------------------------------------------------------------------------------------------- | :-------------------------------- |
-| <a href="mailto:florian.oswald@sciencespo.fr">.ScPored[<i class="fa fa-paper-plane fa-fw"></i>]               | florian.oswald@sciencespo.fr       |
-| <a href="https://scpoecon.github.io/scpo_xaringan">.ScPored[<i class="fa fa-link fa-fw"></i>] | slides |
-| <a href="http://twitter.com/ScPoEcon">.ScPored[<i class="fa fa-twitter fa-fw"></i>]                          | @ScPoEcon                         |
-| <a href="http://github.com/ScPoEcon">.ScPored[<i class="fa fa-github fa-fw"></i>]                          | @ScPoEcon                       |
+| <a href="mailto:pablo@reed.edu">.Reedred[<i class="fa fa-paper-plane fa-fw"></i>]               | pablo@reed.edu       |
+| <a href="https://scpoecon.github.io/scpo_xaringan">.Reedred[<i class="fa fa-link fa-fw"></i>] | slides |
+| <a href="http://twitter.com/paulonabike">.Reedred[<i class="fa fa-twitter fa-fw"></i>]                          | @PaulOnABike                         |
+| <a href="http://github.com/mansonp">.Reedred[<i class="fa fa-github fa-fw"></i>]                          | @mansonp                      |
 

@@ -5,12 +5,15 @@ Updated: 03/06/2018
 
 Modified by Florian Oswald for ScPo
 18/08/2019
+
+Modified by Paul Manson for Reed College
+03/15/2023
 */
 
 /* Package defaults that we slightly tweak */
 
 a, a > code {
-  color: #d90502; /* rgb(249, 38, 114) */
+  color: #A70E16; /* rgb(249, 38, 114) */
   text-decoration: none;
 }
 
@@ -109,7 +112,7 @@ blockquote {
 .title-slide {
   background-image: url("./img/logo/reed-college-griffin-red.svg");
   background-position: 9% 30%;
-  background-size: 300px;
+  background-size: 150px;
   background-color: #fff;
   padding-left: 100px;  /* delete this for 4:3 aspect ratio */
 }
@@ -129,7 +132,7 @@ blockquote {
 
 /* H2 fonts */
 .title-slide h2 {
-  color: #d90502;
+  color: #A70E16;
   font-size: 35px;
   text-align: left;
   text-shadow: none;
@@ -170,7 +173,7 @@ blockquote {
 
 /* section divider red */
 .title-slide-section-red {
-  background-color: #d90502;
+  background-color: #A70E16;
   padding-left: 100px;  /* delete this for 4:3 aspect ratio */
 }
 
@@ -207,7 +210,7 @@ blockquote {
 
 
 .title-slide-final h1 {
-  color: #d90502;
+  color: #A70E16;
 }
 
 
@@ -222,13 +225,13 @@ blockquote {
 
 /* Color adjustments for text */
 
-/* Make bold syntax compile to ScPo-red */
+/* Make bold syntax compile to Reed-red */
 strong {
-  color: #d90502;
+  color: #A70E16;
 }
 
-.ScPored {
-  color: #d90502;
+.Reedred {
+  color: #A70E16;
 }
 
 /* Add blue tag */
@@ -259,7 +262,7 @@ strong {
 
 /* Color adjustments to headers */
 h1 {
-  color: #d90502;
+  color: #A70E16;
 }
 
 h3 {
@@ -278,7 +281,7 @@ ru-blockquote {
   margin-bottom: 1em;
   margin-left: 40px;
   margin-right: 40px;
-  border-left: solid 10px #d90502;
+  border-left: solid 10px #A70E16;
   background-color: #818181;
   padding: 1em;
   color: #fff;
