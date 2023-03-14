@@ -2,11 +2,13 @@
 
 Minimalist `R` xaringan theme for html presentations using ScPo style/colors.
 
+Reed style guide a [https://www.reed.edu/public-affairs/assets/downloads/reed-graphic-standards.pdf](https://www.reed.edu/public-affairs/assets/downloads/reed-graphic-standards.pdf).
+
 ## Example Title Slide
 
 Here is the title slide:
 
-![](img/ex/title.png)
+![](images/coverslide.png)
 
 ## Full Example Presentation
 
