@@ -24,7 +24,7 @@ just fork this and edit the front-matter YAML at the start of your Rmd file cont
 title: "your title"
 subtitle: "subtitle"
 author: "Your name"
-date: "SciencesPo Paris </br> `r Sys.Date()`"
+date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
