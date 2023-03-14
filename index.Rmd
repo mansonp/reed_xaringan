@@ -52,13 +52,18 @@ layout: true
 # Attribution
 
 - This template is based on a fork of
+[ScPo Econ](https://github.com/ScPoEcon/scpo_xaringan) template for Sciences Po.
+
+- Which is a fork of
 [jvcasillas](https://github.com/jvcasillas/ru_xaringan) template for Rutgers University.
 
+- That is Github as a short story...
+
 - I changed some small things in the CSS.
-    1. Used Reed Logos
+    1. Used Reed Logos and color scheme
     1. Added a Reed logo in the footer of standard slides.
     
-- The template is now here: https://github.com/ScPoEcon/scpo_xaringan. Visit to check out instructions.
+- The template is now here: https://github.com/mansonp/reed_xaringan/. Visit to check out instructions.
 
 ---
 
